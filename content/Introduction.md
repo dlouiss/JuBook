@@ -11,6 +11,8 @@ abstract: |
 
 # Introduction
 
+
+
 Jupyter Book has been rebuild from ground up using the MyST engine [@doi:10.25080/hwcj9957]. This allows to export content in multiple output formats including HTML, PDF and docx. In this paper we present an overview of the possibilities and demonstrate its working.
 
 In an introduction. you often cite. Than can be done in various ways, either using a .bib file or directly using the doi.
@@ -26,6 +28,19 @@ In an introduction. you often cite. Than can be done in various ways, either usi
 
 ## Background
 Jupyter Book has been rebuild with the intend to export content in multiple output formats including HTML, PDF and docx. {numref}`Figure {number} <fig-diagram>` provides this idea.
+
+
+
+
+lets start with inline $F = m \cdot a$. 
+
+(newton)=
+$$
+F = m \cdot a 
+$$
+
+now we look at {numref}`eq {number} <newton>`
+
 
 ```{figure} figures/diagram.*
 :label: fig-diagram
